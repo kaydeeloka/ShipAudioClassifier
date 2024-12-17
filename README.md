@@ -1,6 +1,8 @@
 # ShipClassifier
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install flask openai librosa torch matplotlib numpy seaborn pandas jsonify
 
 가상환경 생성, 활성화, pip install 진행합니다.
