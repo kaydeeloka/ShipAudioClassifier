@@ -1,4 +1,7 @@
 # ShipClassifier
+
+open floder로 파일을 여는 경우 /shipver4 경로를 root폴더로 해주세요
+
 python -m venv venv
 
 venv\Scripts\activate
