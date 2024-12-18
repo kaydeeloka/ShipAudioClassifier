@@ -1,9 +1,13 @@
 # ShipClassifier
+
+open floder로 파일을 여는 경우 /shipver4 폴더를 root폴더로 해주세요
+
 python -m venv venv
 
 venv\Scripts\activate
 
 pip install flask openai librosa torch matplotlib numpy seaborn pandas jsonify
+pip install torchvision
 
 가상환경 생성, 활성화, pip install 진행합니다.
 
