@@ -199,7 +199,7 @@ def predict():
         plt.close(fig)
 
         # Generate and save visualizations for the first audio chunk
-        visualization = generate_visualizations(audio_chunks[0])
+        visualization = generate_visualizations(audio_path[0])
 
         # Clean up temporary audio chunk files (if applicable)
         for chunk in audio_chunks:
